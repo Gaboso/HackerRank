@@ -22,11 +22,7 @@ public class HurdleRace {
             }
         }
 
-        if (k >= max) {
-            return 0;
-        }
-
-        return max - k;
+        return k >= max ? 0 : max - k;
     }
 
 }
